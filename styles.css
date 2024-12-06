@@ -7,13 +7,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f7f9fb; /* Light gray background for a clean feel */
+  background-color: #f4f7f6; /* Light, neutral background color for a calm look */
   color: #333; /* Dark text color for readability */
   line-height: 1.6;
 }
 
 header {
-  background-color: #2c3e50; /* Darker blue-gray */
+  background-color: #2e3c48; /* A subtle dark gray-blue for the header */
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -36,12 +36,12 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #1abc9c; /* Subtle hover effect with a greenish tint */
-  border-bottom: 2px solid #1abc9c; /* Border on hover */
+  color: #16a085; /* Subtle hover effect with a greenish tint */
+  border-bottom: 2px solid #16a085; /* Border on hover */
 }
 
 h1, h2 {
-  color: #2c3e50; /* Subtle dark gray-blue for main headings */
+  color: #2e3c48; /* Subtle dark gray-blue for headings */
 }
 
 h1 {
@@ -59,16 +59,16 @@ section {
   padding: 30px;
   margin: 20px auto;
   background-color: #ffffff; /* White background for content sections */
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a card effect */
-  max-width: 1000px; /* Limit the width to prevent stretching on larger screens */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+  max-width: 1000px; /* Limit the width of content */
 }
 
 section.intro {
-  background-color: #ecf0f1; /* Light gray background for the intro section */
+  background: linear-gradient(135deg, #f0f8ff, #d3e4e8); /* Soft gradient for intro section */
   text-align: center;
   padding: 50px 20px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 section.intro h1 {
@@ -91,21 +91,21 @@ ul li {
 }
 
 a {
-  color: #1abc9c; /* Accent color for all links */
+  color: #16a085; /* Accent color for all links */
   text-decoration: none;
 }
 
 a:hover {
-  color: #16a085; /* Darker green when hovered */
+  color: #1abc9c; /* Darker green when hovered */
 }
 
 footer {
-  background-color: #2c3e50; /* Dark footer with same color as header */
+  background-color: #2e3c48; /* Dark background for footer */
   color: #ecf0f1; /* Light text in the footer */
   text-align: center;
   padding: 15px;
   margin-top: 40px;
-  border-top: 2px solid #1abc9c; /* Greenish border for footer */
+  border-top: 2px solid #16a085; /* Greenish border for footer */
 }
 
 footer p {
@@ -118,7 +118,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #1abc9c;
+  color: #16a085;
 }
 
 @media screen and (max-width: 768px) {
