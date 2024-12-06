@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     // Example of adding interactivity, e.g., changing the background color
     $("header").hover(
