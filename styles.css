@@ -55,6 +55,7 @@ h2 {
   margin-bottom: 10px;
 }
 
+/* Section Styling for Resume and Bio-Data */
 section {
   padding: 30px;
   margin: 20px auto;
@@ -62,6 +63,16 @@ section {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
   max-width: 1000px; /* Limit the width of content */
+}
+
+/* Resume Section Specific Background */
+section.resume {
+  background-color: #f9f9f9; /* Very light gray background for the resume page */
+}
+
+/* Bio-Data Section Specific Background */
+section.bio {
+  background-color: #f4f9f6; /* Soft, pale greenish background for bio-data */
 }
 
 section.intro {
