@@ -65,14 +65,14 @@ section {
   max-width: 1000px; /* Limit the width of content */
 }
 
-/* Resume Section Specific Background */
+/* Resume Section Specific Gradient Background */
 section.resume {
-  background-color: #f9f9f9; /* Very light gray background for the resume page */
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2); /* Soft cyan to light blue gradient */
 }
 
-/* Bio-Data Section Specific Background */
+/* Bio-Data Section Specific Gradient Background */
 section.bio {
-  background-color: #f4f9f6; /* Soft, pale greenish background for bio-data */
+  background: linear-gradient(135deg, #f0f8ff, #e0e4e8); /* Soft light blue to pale gray gradient */
 }
 
 section.intro {
